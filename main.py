@@ -21,7 +21,7 @@ def get_time():
   today = datetime.now()
   return today
 
-def get_city()：
+def get_city():
   city = os.environ['CITY']
   return city
 
